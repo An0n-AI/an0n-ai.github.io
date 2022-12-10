@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: 'Martian Mono';
+}
+
+.parent {
+    color: #f2f2f2;
+    background-color: #1B1B1B;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+a:hover {
+    letter-spacing: 1px;
+}
+
+
+/*=============================[HEADER]========================*/
+.header {
+    padding: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: sticky;
+    top: 0;
+    background-color: #1B1B1B;
+}
+
+.header span {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header a {
+    float: right;
+    margin-top: 0.5em;
+}
+
+.header a span {
+    vertical-align: middle;
+}
+
+.header a span:hover {
+    text-decoration: underline;
+}
+/*=============================================================*/
+
+
+/*=============================[INTRO]========================*/
+.intro {
+    text-align: center;
+    padding-top: 15em;
+    padding-bottom: 23em;
+}
+
+.intro img {
+    border-radius: 20em;
+    width: 8em;
+    height: 8em;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
+}
+/*============================================================*/
+
+
+/*=============================[GENERIC-WHITE]========================*/
+.generic-white {
+    background-color: #f2f2f2;
+    color: #0D0D0C;
+    padding: 2em 4em 2em 5em;
+    padding-left: 5em;
+    padding-right: 4em;
+}
+
+.generic-white h3 {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+/*====================================================================*/
+
+
+/*=============================[ART]========================*/
+.art h3 {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.art-actual {
+    text-align: center;
+}
+
+.art-actual img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 35px;
+}
+
+.art-actual p {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.art-actual p a:hover {
+    text-decoration: underline;
+}
+/*==========================================================*/
+
+
+/*=============================[CONTACT]========================*/
+.contact {
+    margin: 3em;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.contact a i {
+    font-size: 20px;
+    color: #0D0D0C;
+    vertical-align: middle;
+}
+.contact a {
+    margin-left: 0.5em;
+}
+
+.contact p {
+    margin-bottom: 1em;
+}
+/*==============================================================*/
+
+
+/*=============================[FOOTER]========================*/
+.footer {
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #0D0D0C;
+    background-color: #f2f2f2;
+}
+/*=============================================================*/
