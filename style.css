@@ -13,10 +13,6 @@ a {
     color: #f2f2f2;
 }
 
-a:hover {
-    letter-spacing: 1px;
-}
-
 
 /*=============================[HEADER]========================*/
 .header {
